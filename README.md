@@ -1,2 +1,16 @@
 # docker-phan
-A container for phan which doesn't insult your intelligence
+
+This is a docker container for the [phan](https://github.com/etsy/phan/) static analyser.
+
+## Usage
+
+Just start the container, mount your code somehow, then run `phan` however you want inside it. In contrast to all 
+other containers for this tool this one doesn't try to insult your intelligence by limiting how you use the tool.
+
+## Versioning
+
+Each version is tagged with the version of phan it ships.
+
+### Credits
+
+Credits to [mre/docker-php-phan](https://github.com/mre/docker-php-phan) for the installation instructions.
